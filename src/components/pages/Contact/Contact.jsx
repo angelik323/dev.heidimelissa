@@ -6,7 +6,7 @@ const Contact = () => {
   return (
     <section className="pb-10">
       <div className="flex flex-wrap md:px-4">
-        <form className="p-8 md:mx-4 bg-white rounded-md shadow-md" action="https://formspree.io/f/moqzwvpe">
+        <form className="p-8 md:mx-4 bg-white rounded-md shadow-md" action="https://formspree.io/f/moqzwvpe" method="POST">
           <div className="m-3">
             <h3 className="text-2xl text-gray-800 font-bold mb-6">
               Contáctame
