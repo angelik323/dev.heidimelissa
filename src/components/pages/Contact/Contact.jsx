@@ -6,10 +6,10 @@ const Contact = () => {
   return (
     <section className="pb-10">
       <div className="flex flex-wrap md:px-4">
-        <form className="p-8 md:mx-4 bg-white rounded-md shadow-md">
+        <form className="p-8 md:mx-4 bg-white rounded-md shadow-md" action="https://formspree.io/f/moqzwvpe">
           <div className="m-3">
             <h3 className="text-2xl text-gray-800 font-bold mb-6">
-              Get in Touch
+              Contáctame
             </h3>
           </div>
           <div className="w-full flex flex-wrap">
@@ -18,7 +18,7 @@ const Contact = () => {
                 <input
                   type="text"
                   name="name"
-                  placeholder="Your Name"
+                  placeholder="Nombre"
                   required
                   className="w-full border border-gray-100 rounded py-4 px-6 text-sm bg-white"
                 />
@@ -30,7 +30,7 @@ const Contact = () => {
                   type="email"
                   name="email"
                   required
-                  placeholder="Your Email"
+                  placeholder="Email"
                   className="w-full border border-gray-100 rounded py-4 px-6 text-sm bg-white"
                 />
               </div>
@@ -41,7 +41,7 @@ const Contact = () => {
                   type="text"
                   name="subject"
                   required
-                  placeholder="Subject"
+                  placeholder="Asunto"
                   className="w-full border border-gray-100 rounded py-4 px-6 text-sm bg-white"
                 />
               </div>
@@ -51,7 +51,7 @@ const Contact = () => {
                 <textarea
                   name="message"
                   required
-                  placeholder="Your Message"
+                  placeholder="Mensaje"
                   rows="6"
                   className="w-full border border-gray-100 rounded py-4 px-6 text-sm bg-white"
                 />
@@ -61,8 +61,8 @@ const Contact = () => {
               <div className="m-3 text-right">
                 <input
                   type="submit"
-                  value="Send Message"
-                  className="rounded bg-purple-600 text-center border-0 py-3 px-6 text-white leading-7 tracking-wide hover:bg-purple-800 cursor-pointer"
+                  value="Enviar Mensaje"
+                  className="rounded bg-pink-600 text-center border-0 py-3 px-6 text-white leading-7 tracking-wide hover:bg-purple-800 cursor-pointer"
                 />
               </div>
             </div>

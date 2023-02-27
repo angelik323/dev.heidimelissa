@@ -1,5 +1,5 @@
 import React from "react";
-import cover from "../../../images/cover-image.jpg";
+import cover from "../../../images/cover-image.jpeg";
 
 const ProfileCover = () => {
   return (

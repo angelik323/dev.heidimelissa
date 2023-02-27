@@ -6,6 +6,7 @@ import image4 from "../../../images/portfolio/project-04.jpg";
 import PortfolioItem from "./PortfolioItem";
 
 const portfolioData = [
+  /*
   {
     id: 1,
     image: image1,
@@ -37,7 +38,7 @@ const portfolioData = [
     link: "#0",
     description:
       "Lorem ipsum dolor sit aconsect dipisicing elit, sed do eiusmod to incididunt uabore etdolore magna aliqua.",
-  },
+  },*/
 ];
 
 const Portfolio = () => {

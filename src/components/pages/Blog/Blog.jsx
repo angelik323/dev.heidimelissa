@@ -6,6 +6,7 @@ import image4 from "../../../images/blog/blog-04.jpg";
 import BlogItem from "./BlogItem";
 
 const blogData = [
+  /*
   {
     id: 1,
     image: image1,
@@ -33,7 +34,7 @@ const blogData = [
     title: "10+ Sources to Download Free SVG Illustrations",
     description:
       "There is no doubt about the importance of Scalable Vector Graphics illustration today.",
-  },
+  },*/
 ];
 
 const Blog = () => {

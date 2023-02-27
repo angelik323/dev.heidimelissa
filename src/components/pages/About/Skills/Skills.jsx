@@ -4,43 +4,43 @@ import SkillItem from "./SkillItem";
 const skillData = [
   {
     id: 1,
-    title: "Html, Css, Scss",
-    percentage: "95%",
+    title: "Python",
+    percentage: "28%",
   },
   {
     id: 2,
-    title: "Bootstrap",
-    percentage: "98%",
+    title: "Java",
+    percentage: "23%",
   },
   {
     id: 3,
-    title: "TailwindCSS",
-    percentage: "90%",
+    title: "Git, Github",
+    percentage: "30%",
   },
   {
     id: 4,
-    title: "Javascript",
-    percentage: "70%",
+    title: "Bootstrap5",
+    percentage: "3%",
   },
   {
     id: 5,
-    title: "ReactJS",
-    percentage: "70%",
+    title: "Html5, Css3",
+    percentage: "5%",
   },
   {
     id: 6,
-    title: "ExpressJS",
-    percentage: "60%",
+    title: "Bootstrap5",
+    percentage: "3%",
   },
   {
     id: 7,
-    title: "MongoDB",
-    percentage: "50%",
+    title: "JavaScript",
+    percentage: "5%",
   },
   {
     id: 8,
-    title: "Git, Github",
-    percentage: "80%",
+    title: "ReactJS",
+    percentage: "3%",
   },
 ];
 
@@ -50,7 +50,7 @@ const Skills = () => {
       <div className="flex flex-wrap">
         <div className="w-full">
           <div className="md:mx-4">
-            <h3 className="text-2xl text-gray-800 font-bold mb-4">Skills</h3>
+            <h3 className="text-2xl text-gray-800 font-bold mb-4">Habilidades</h3>
           </div>
         </div>
         {skillData.map((skill, id) => (

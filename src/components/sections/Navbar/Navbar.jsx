@@ -14,17 +14,17 @@ import Service from "../../pages/Service/Service";
 const navbarData = [
   {
     id: 1,
-    title: "About",
+    title: "Sobre mí",
     to: "/about",
   },
   {
     id: 2,
-    title: "Services",
+    title: "Tecnologías",
     to: "/services",
   },
   {
     id: 3,
-    title: "Works",
+    title: "Proyectos",
     to: "/works",
   },
   {
@@ -34,7 +34,7 @@ const navbarData = [
   },
   {
     id: 5,
-    title: "Contact",
+    title: "Contacto",
     to: "/contact",
   },
 ];
@@ -82,7 +82,7 @@ const LinkItem = (props) => {
     <li className="m-3 lg:mx-5">
       <NavLink
         to={to}
-        activeClassName="text-purple-600"
+        activeClassName="text-pink-600"
         className="text-gray-800 text-medium hover:text-purple-600"
       >
         {title}
